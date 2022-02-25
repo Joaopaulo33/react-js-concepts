@@ -32,7 +32,7 @@ export function TaskList() {
       setTasks(tasks.concat(newTask));
     
   }else{
-    window.alert("O título não pode estar vazio")
+    
   }
 }
 
