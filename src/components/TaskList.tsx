@@ -27,9 +27,8 @@ export function TaskList() {
       title:newTaskTitle,
       isComplete:false
     }; 
-     console.log("criado");
-
-      setTasks(tasks.concat(newTask));
+    setNewTaskTitle('');
+    setTasks(tasks.concat(newTask));
     
   }else{
     
